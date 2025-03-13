@@ -3,7 +3,7 @@
 import QuickNotice from "@/app/components/template/QuickNotice";
 import ShortcutsSection from "@/app/components/template/ShortcutsSection";
 import ShortPage from "@/app/components/template/ShortPage/ShortPage";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Home = () => {
   const [hidden, setHidden] = useState(false);
